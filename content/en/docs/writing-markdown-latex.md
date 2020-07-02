@@ -163,14 +163,14 @@ To enable linking to a file, such as a PDF, first place the file in your `static
 
 The optional `"newtab"` argument for `staticref` will cause the link to be opened in a new tab.
 
-### Figures
+## Figures
 
 To cross-reference a figure:
 
 1. Retrieve the figure ID. The figure ID consists of a URL friendly equivalent of the image caption prefixed with `figure-`. To grab the exact ID, preview the page in Hugo, right click a figure and click _Inspect_ in your browser to grab the value of the figure’s `id` field.
 2. Create a link to the figure in the form `[a link to a figure](#figure-FIGURES-CAPTION)`. 
 
-### Tags and Categories
+## Tags and Categories
 
 Use `{{</* list_tags */>}}` to provide a list of linked tags or `{{</* list_categories */>}}` to provide a list of linked categories.
 
