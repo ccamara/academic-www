@@ -22,4 +22,8 @@ I have been so satisfied with my website built from Markdown using the awesome [
 Very proud of the new DAPPER Stats website we #MadeWith[Wowchemy]!
 {{< /tweet_card >}}
 
+{{< tweet_card name="GitHub" username="@GitHub" link="https://github.blog/2019-03-01-release-radar-february-2019/#hugo-academic-4-0" >}}
+A project that helps you put together a website with Markdown and Hugo. While it's geared towards educators and researchers, anyone can use it — and it comes with a variety of widgets and themes to help share your work quickly.
+{{< /tweet_card >}}
+
 </div>

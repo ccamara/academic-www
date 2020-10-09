@@ -14,7 +14,7 @@
     <div>
       {{ if (.Get "username") }}
         {{ $image_name := replace (.Get "username") "@" "" }}
-        {{ $image := $resource_page.Resources.GetMatch (printf "**%s.jpg" $image_name) }}
+        {{ $image := $resource_page.Resources.GetMatch (printf "**%s.*" $image_name) }}
         {{ with $image }}
           <img src="{{ .RelPermalink }}" class="rounded-circle mr-1" style="display: inline-block; width: 1rem; height: 1rem">
         {{end}}
